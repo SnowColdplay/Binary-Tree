@@ -16,7 +16,10 @@ class Solution():
             return True
         if abs(self.maxdepth(root.left)-self.maxdepth(root.right))>1:
             return False
-        return self.is_balance(root.left) and self.is_balance(root.right)
+        return self.is_balance(root.left) and self.is_balance(root.right
+    '求树的深度，左树右树的差值大于1，就不是平衡二叉树'
+
+
 
 
 
